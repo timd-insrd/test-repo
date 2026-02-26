@@ -1,0 +1,25 @@
+{
+  "name": "appointment-checker",
+  "version": "1.0.0",
+  "description": "Check online appointment availability using Playwright browser automation",
+  "main": "dist/check.js",
+  "scripts": {
+    "discover": "ts-node src/discover.ts",
+    "check": "ts-node src/check.ts",
+    "build": "tsc",
+    "setup": "npx playwright install chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:32040/git/timd-insrd/test-repo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^25.3.2",
+    "playwright": "^1.58.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
